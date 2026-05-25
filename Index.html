@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Una sorpresa para Lizbeth</title>
+    <link rel="stylesheet" href="../Style/Style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎶</text></svg>"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>¡Oda, <span class="highlight">Liz</span>!</h1>
+        <p>
+          Te prometí una pequeña sorpresa... aquí la tienes. ¡Haz clic abajo!
+        </p>
+      </header>
+
+      <div class="gift-container" id="gift-box">
+        <div class="gift-box">🎁</div>
+        <p class="tap-text">Toca el regalo</p>
+      </div>
+
+      <div class="surprise-content hidden" id="surprise-content">
+        <h2>✨ ¡Sorpresa! ✨</h2>
+
+        <div class="cards-grid">
+          <div class="card">
+            <h3>Nota 📝</h3>
+            <p>
+              Se que no es el mejor regalo, pero espero te guste, solo quiero
+              decirte que, agradezco mucho el tiempo que me haz brindado,
+              creeme, me has ayudado mucho. Espero estar siendo reciproco
+              contigo, he aprendido a quererte y como tratarte. algunas cuantes
+              veces fallo pero siempre inteto darte lo mejor de mi persona. Te
+              quiero mucho, y espero que este detalle te saque una sonrisa.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Frases que les doy sentido gracias a ti ⚡</h3>
+            <p id="phrase-text">
+              Da click abajito y aparecerá una frase que me recuerda a ti o que
+              me hace pensar en ti. ¡Espero te guste!
+            </p>
+            <button id="btn-phrase">Ver otra frase</button>
+          </div>
+
+          <div class="card">
+            <h3>Contador de Sonrisas 🌟</h3>
+            <p>¿Cuántas veces has sonreído hoy? ¡Suma una aquí!</p>
+            <div class="counter-num" id="counter">0</div>
+            <button id="btn-counter">¡Sonreír!</button>
+          </div>
+          <!-- Nueva Tarjeta: Cuenta Regresiva Concierto -->
+          <div class="card countdown-card">
+            <h3>Próxima Parada: Siddhartha 🎶</h3>
+            <p>
+              ¡El reloj está corriendo! Falta muy poco para cantar a todo
+              pulmón.
+            </p>
+            <div class="countdown-display">
+              <div class="time-box">
+                <span id="days">00</span><small>Días</small>
+              </div>
+              <div class="time-box">
+                <span id="hours">00</span><small>Horas</small>
+              </div>
+              <div class="time-box">
+                <span id="minutes">00</span><small>Min</small>
+              </div>
+              <div class="time-box">
+                <span id="seconds">00</span><small>Seg</small>
+              </div>
+            </div>
+            <p class="event-date">📅 03 de Septiembre - 20:00 hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../Js/Script.js"></script>
+  </body>
+</html>
