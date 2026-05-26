@@ -270,30 +270,3 @@ button:hover {
         font-size: 0.65rem;
     }
 }
-
-/* ==========================================
-   ESTILOS REPRODUCTOR DIRECTO APPLE MUSIC
-   ========================================== */
-.setlist-card {
-    grid-column: 1 / -1;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 25px;
-}
-
-.apple-players-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
-    width: 100%;
-}
-
-.apple-player-item {
-    width: 100%;
-    transition: transform 0.3s ease;
-}
-
-.apple-player-item:hover {
-    transform: scale(1.02); /* Un ligero efecto de acercamiento al pasar el cursor */
-}
